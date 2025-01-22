@@ -1,0 +1,153 @@
+
+button:hover{
+    cursor: pointer;
+}
+
+header a {
+    margin: 20px;
+}
+
+body {
+    font-family: "Lexend", serif;
+}
+
+*{  
+    margin: 0; 
+    padding: 0;     
+    border: 0; 
+    outline: 0;     
+    list-style: none; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    scroll-behavior: smooth; 
+}
+
+.fa-fire {
+font-size: 50px;
+margin: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    background-color: rgb(235, 242, 239);
+    padding: 25px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Header_Mods {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(105, 128, 116);
+        
+}
+
+.Header_Servers {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(105, 128, 116);
+    
+}
+
+.Header_Seeds{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(105, 128, 116); 
+    
+}
+
+.returntohome{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(105, 128, 116);
+}
+
+main{
+    margin-top: 140px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.server_M{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(105, 128, 116);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo1{
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo2{
+    padding: 15px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.server1{
+    display: flex;
+    flex-direction: column;
+}
+
+.server2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.ip{
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    margin-top: 25px;
+    background-image: url(https://th.bing.com/th/id/OIP.XsyN6K1Eh3gy5DgP3HnjOwHaEo?w=278&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+@media (max-width: 1199px) {  }
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+@media (max-width: 991px) { 
+    header {
+        flex-wrap: wrap;
+     }
+     
+     header a {
+         margin: 10px;
+     }
+
+     .server2 img{
+            width: 300px;
+            height: 200px;
+        }
+ }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+@media (max-width: 767px) {  }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+@media (max-width: 575px) {  }
